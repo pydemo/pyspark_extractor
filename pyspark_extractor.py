@@ -2,7 +2,7 @@
 
 set PYSPARK_EXTRACTOR_LINUX_HOST=home.root.net
 set PYSPARK_EXTRACTOR_LINUX_PWD=***
-python extract.py -q query.sql -o test.csv -d 20200604 
+python pyspark_extractor.py -q query.sql -o test.csv -d 20200604 
 
 
 """
