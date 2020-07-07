@@ -15,8 +15,8 @@ python pyspark_extractor.py -q query.sql -o c:\tmp\dump.csv -d 20200604
 ## Params
 
 
-`query.sql` - input query to run in data lake(Hive/PySpark)
-`c:\tmp\dump.csv` - local (Windows OS) query results dump.
+  `query.sql` - input query to run in data lake(Hive/PySpark)
+  `c:\tmp\dump.csv` - local (Windows OS) query results dump.
 
 ## Log
 
