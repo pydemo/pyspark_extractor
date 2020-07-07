@@ -8,12 +8,17 @@ Local Windows extract from data lake using remote PySpark.
 ```
 set PYSPARK_EXTRACTOR_LINUX_HOST=home.root.net  
 set PYSPARK_EXTRACTOR_LINUX_PWD=***  
-python pyspark_extractor.py -q AMC_olympus.sql -o AMC_oly.csv -d 20200604  
+python pyspark_extractor.py -q query.sql -o c:\tmp\dump.csv -d 20200604  
 ```
 
  
+## Params
 
- ## Log
+
+`query.sql` - input query to run in data lake(Hive/PySpark)
+`c:\tmp\dump.csv` - local (Windows OS) query results dump.
+
+## Log
 
 
 
